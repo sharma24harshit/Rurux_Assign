@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+*{
+    font-family: sans-serif;
+}
+.Homepagecards{
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+}
+.Homepage_row_cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.homepage_card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.homepage_img{
+    height: 250px;
+    object-fit: cover;
+}
+.homepage_bold_text{
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* // --------------------  Admin Login --------------------// */
+.admin_login_background{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(58, 168, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin_login_container{
+width: 30%;
+padding: 10px 20px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+background-color: white;
+border-radius: 15px;
+}
+.admin_login_container>h2{
+text-align: center;
+font-weight: bold;
+margin: 15px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* delete Icon css */
+#AdminDeleteIcon{
+    font-size: 18px;
+   color: black;
+     margin-left: 40px; 
+ }
+ #AdminDeleteIcon:hover{
+    font-size: 22px;
+   color: red;
+     cursor: pointer;
+ }
+ #AdminEditIcon{
+    font-size: 18px;
+    color: black;
+      margin-left: 40px; 
+ }
+ #AdminEditIcon:hover{
+    font-size: 22px;
+   color: blue;
+     cursor: pointer;
+ }
+ .adminNavbar{
+    margin-bottom: 30px;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media all and (max-width:500px){
+    .admin_login_container{
+    width: 80%;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    border-radius: 15px;
+    }
+    .admin_login_container>h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+    }
+     
 }
