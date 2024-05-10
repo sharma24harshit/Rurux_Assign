@@ -20,3 +20,6 @@ I used Express, Nodejs, MongoDB.
 <h4>- Add new field /stream</h4>
 <h4>- Update existing field /stream by clicking on edit icon.</h4>
 <h4>- Delete existing field /stream by clicking on delete icon.</h4>
+
+<h4>- Add new subject</h4>
+<h4>- Delete existing subject by clicking on delete icon.</h4>
