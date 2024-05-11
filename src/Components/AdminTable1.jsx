@@ -15,7 +15,6 @@ const AdminTable1 = () => {
    const [modalType, setModalType] = useState("Add");
    const [editFieldID ,setEditFieldID] = useState(null);
    const [modalTitle,setModalTitle] = useState("Add Field/Stream");
-   const[subjectValue , setSubjectValue] = useState("");
 // Modal variables end
 
 //  toast variables start

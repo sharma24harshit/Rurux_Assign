@@ -7,6 +7,8 @@ import StudentLogin from './Student/StudentLogin'
 import Student from './Student/Student'
 import AdminDashboard from './Admin/AdminDashboard'
 import AdminAllStudents from './Admin/AdminAllStudents'
+import StudentDashboard from './Student/StudentDashboard'
+import StudentRegister from './Student/StudentRegister'
 const Allroutes = () => {
   return (
     <Routes>
@@ -20,6 +22,8 @@ const Allroutes = () => {
 
         <Route path="/student" element={<Student />}>
          <Route path="login" element={<StudentLogin />} />
+         <Route path="register" element={<StudentRegister />} />
+         <Route path="dashboard" element={<StudentDashboard />} />
         </Route>
 
     </Routes>
